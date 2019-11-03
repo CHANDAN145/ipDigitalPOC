@@ -1,0 +1,31 @@
+.header-background {
+    background-image: url('https://lh3.googleusercontent.com/-BI1d7ffzOIU/XbnH5_PxQfI/AAAAAAAAnKk/zJt0EQbzjko7fI-uKO9sJ49oJ7JcmedjQCK8BGAsYHg/s0/2019-10-30.jpg');
+    height: 250px;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.datacenter-body {
+    background-color: white;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .header-text {
+        color: white;
+        text-align: center;
+     }
+    /*.side-image {
+        height:"100%";
+         width:"400px"
+    } */
+    
+}
+
+/* .side-image {
+    height:"100%";
+     width:"400px"
+} */

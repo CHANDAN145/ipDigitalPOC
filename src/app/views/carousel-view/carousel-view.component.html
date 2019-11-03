@@ -1,0 +1,81 @@
+<!-- <div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item  active">
+          <img src="https://lh3.googleusercontent.com/-vP3I2A6OEaE/Xa8QCVA2jrI/AAAAAAAAm8c/Va7T2U_jp5suLAMzLSOuZFD2vffG5K_PwCK8BGAsYHg/s0/2019-10-22.png" style="width:100%;" />
+      </div>
+      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/bF2vsubyHcQ/1920x1080')">
+        
+      </div>
+      <div class="carousel-item " style="background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080')">
+        
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="wrapper">
+  <div class="container-fluid px-0">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner bg-info" role="listbox">
+        <div class="carousel-item active">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <div class="d-flex align-items-center justify-content-center min-vh-100">
+              <!-- <img id="carousel-image-3"
+                   src="https://lh3.googleusercontent.com/-LgU3rII9T4I/Xa8QEFg3LXI/AAAAAAAAm8g/zFJU4KtkMKoWpPnaJnsJ5OO86YspQXohwCK8BGAsYHg/s0/2019-10-22.png"
+                     /> -->
+              <video autoplay muted loop id="myVideo">
+                <source src="../../../assets/videos/1.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <!-- <img id="carousel-image-1"     /> -->
+            <video autoplay muted loop id="myVideo">
+              <source src="../../../assets/videos/2.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex align-items-center justify-content-center min-vh-100">
+            <div class="d-flex align-items-center justify-content-center min-vh-100">
+              <!-- <img id="carousel-image-4"
+                src="https://lh3.googleusercontent.com/-GyVNSLeZqpA/Xa8QGTNe6rI/AAAAAAAAm8k/WaPFmBZB1zkfRDFaLqDAGEi9CIwKItwHACK8BGAsYHg/s0/2019-10-22.png"
+                   /> -->
+              <video autoplay muted loop id="myVideo">
+                <source src="../../../assets/videos/5.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+  <div class="carousel-caption-section jumbotron">
+    <h1 class="carousel-caption-h2"> {{carouselCaptions[0].mainHeader}} </h1>
+    <br />
+    <h2 class="carousel-caption-h4"> {{carouselCaptions[0].subHeader}} </h2>
+    <br />
+    <h5 class="carousel-caption-h4 carousel-caption-body"> {{carouselCaptions[0].body}} </h5>
+    <br />
+    <button type="button" class="btn btn-outline-primary learn-more">LEARN MORE</button>
+  </div>
+</div>

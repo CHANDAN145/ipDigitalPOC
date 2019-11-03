@@ -1,0 +1,55 @@
+ .logo {
+    width: 220px;
+    margin-left: 40px;
+}
+
+.contact-us {
+    border: 1px solid #91358D;
+}
+
+.nav-item {
+    vertical-align: bottom;
+    margin-top: 18px; 
+    margin-left:18px;
+    color:black;
+    font-size: 18px;
+    background-color: white;
+}
+
+.navbar-button-item {
+    vertical-align: bottom;
+    /* margin-top: 12px;  */
+    /* margin-left:18px; */
+    margin-right: 40px;;
+    color:#91358D;
+    font-size: 16px;
+    background-color: white;
+}
+
+.navbar-right {
+    padding-right: 100px;
+    font-size: 16px;
+}
+
+.navbar {
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 5px #888;
+
+}
+
+.navbar-header {
+    padding-left: 100px;
+}
+
+.btn-outline-nav {
+    border: 1px solid black;
+}
+
+.black-background {
+    background-color: black;
+}
+
+.navbar-toggle 
+{
+    margin-top:20px;
+} 
