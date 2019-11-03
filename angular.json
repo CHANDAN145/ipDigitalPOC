@@ -21,7 +21,8 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "404.html"
             ],
             "styles": [
               "src/styles.css"
@@ -118,8 +119,13 @@
               "devServerTarget": "sample-proj:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "sample-proj"
 }
